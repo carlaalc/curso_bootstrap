@@ -41,10 +41,14 @@ nav a:not(.btn-green):hover {
 #destaque {
 	padding-bottom: 100px;
 }
+.box {
+	margin-left: 70px;
+
+}
 #clientes {
 	background: #ebebeb;
 	position: relative;
-	padding: 100px 0;
+	padding: 100px 0 50px;
 }
 #clientes::after {
 	content: "";
