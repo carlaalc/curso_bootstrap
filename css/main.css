@@ -83,6 +83,13 @@ nav a:not(.btn-green):hover {
 #vendas img {
 	margin: 50px 0;
 }
+#vendas_collapse {
+	margin: 0;
+}
+#vendas_collapse + a {
+	display: inline-block;
+	margin-top: 1rem;
+}
 #clientes-box .title {
 	position: absolute;
 	font-size: 16px;
