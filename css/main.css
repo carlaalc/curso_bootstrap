@@ -90,6 +90,10 @@ nav a:not(.btn-green):hover {
 	display: inline-block;
 	margin-top: 1rem;
 }
+/*features*/
+.feature {
+	margin: 100px 0;
+}
 #clientes-box .title {
 	position: absolute;
 	font-size: 16px;
