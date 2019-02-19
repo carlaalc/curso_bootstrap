@@ -10,21 +10,20 @@
 </head>
 <body>
 	<div class="container">
-		<div class="row align-items-center" id="header">
-			<div class="col-12 col-lg-6 d-flex 
-			justify-content-center
-			justify-content-lg-start">
-				<h1>Curso Bootstrap no Infnet</h1>
-			</div>
-			<div class="col-12 col-lg-6 d-flex 
-			justify-content-center
-			justify-content-lg-end">
-				<nav class="float-md-right text-center">
-					<a href="#" class="d-block d-md-inline-block mx-3">Início</a>
-					<a href="#" class="d-block d-md-inline-block mx-3">Sobre</a>
-					<a href="#" class="d-block d-md-inline-block mx-3">Contato</a>
-					<a href="#" class="d-block d-md-inline-block mx-3 mr-lg-0 btn btn-green btn-disabled" data-toggle="modal" data-target="#cadastro_modal">Cadastre-se</a>
-				</nav>
+		<div class="navbar navbar-expand-lg">
+			<div class="row align-items-center" id="header">
+				<div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-start">
+					<h1>Curso Bootstrap no Infnet</h1>
+				</div>
+				<div id="header_collapse" class="collapse navbar-collapse col-lg-6"> 
+					<nav class="float-md-right text-center">
+						<a href="#" class="d-block d-md-inline-block mx-3">Início</a>
+						<a href="#" class="d-block d-md-inline-block mx-3">Sobre</a>
+						<a href="#" class="d-block d-md-inline-block mx-3">Contato</a>
+						<a href="#" class="d-block d-md-inline-block mx-3 mr-lg-0 btn btn-green btn-disabled" data-toggle="modal" data-target="#cadastro_modal">Cadastre-se</a>
+					</nav>
+				</div>
+				<div class="navbar-toggler" data-toggle="collapse" data-target="#header_collapse">Menu</div>
 			</div>
 		</div>
 		<div class="row" id="destaque">
@@ -32,156 +31,157 @@
 				<img class="img-fluid" src="img/destaque.png">
 			</div>
 			<div class="col-12 col-md-6 col-lg-4 offset-lg-2 order-md-1">
-
-				<h2 class="mt-5">Recover what you think is lost</h2>
-
-				<p>Lorem ipsum dolor sit amet, dfgdfh dfg ujiyu consectetur adipisicing elit, sed do eiusmod tempor incididunt dfg ujiyu consectetur adipisicing elit, sed do eiusmod temp.</p>
+				<h2 class="mt-5 font-weight-bold">Lorem ipsum dolor sit amet</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 				<button class="btn btn-green" data-toggle="modal" data-target="#cadastro_modal">Inicie gratuitamente</button>
 			</div>
 		</div>
-		</div>
-		<div id="clientes">
-				<div class="container">
-					<div class="row">
-					<div class="col-8 mx-auto" id="clientes-box">
-						<h3 class="title">Nossos Clientes</h3>
-						<div class="row align-items-center">
-							<div class="col-12 col-md-6 col-lg-3">
-								<img class="img-fluid" src="img/cliente_cnbc.png" alt="CNBC">
-							</div>
-							<div class="col-12 col-md-6 col-lg-3">
-								<img class="img-fluid" src="img/cliente_FOX.png" style="height:60px" alt="FOX">
-							</div>
-							<div class="col-12 col-md-6 col-lg-3">
-								<img class="img-fluid" src="img/cliente_abc.png" alt="ABC">
-							</div>
-							<div class="col-12 col-md-6 col-lg-3">
-								<img class="img-fluid" src="img/cliente_p.png" alt="Product Hunt">
-							</div>
+	</div>
+	<div id="clientes">
+		<div class="container">
+			<div class="row">
+				<div class="col-8 mx-auto" id="clientes-box">
+					<h3 class="title">Nossos clientes</h3>
+					<div class="row align-items-center">
+						<div class="col-12 col-md-6 col-lg-3">
+							<img class="img-fluid" src="img/cliente-cnbc.png" alt="CNBC">
+						</div>
+						<div class="col-12 col-md-6 col-lg-3">
+							<img class="img-fluid" src="img/cliente-fox.png" alt="Fox">
+						</div>
+						<div class="col-12 col-md-6 col-lg-3">
+							<img class="img-fluid" src="img/cliente-abc.png" alt="ABC">
+						</div>
+						<div class="col-12 col-md-6 col-lg-3">
+							<img class="img-fluid" src="img/cliente-product-hunt.png" alt="Product Hunt">
 						</div>
 					</div>
 				</div>
-				<div class="row text-center">
-					<div class="col col-md-8 col-lg-6 mx-auto" id="vendas">
-						<h3>Aumente suas vendas em 3X</h3>
-						<p>Do you know the abandoned carts rate is more than 74% ? It’s a common problem in ecommerce industry. So it’s a must have tools which will help you to recover lost revenues. Don’t you want to lift your revenue to 3X?</p>
-						<p id="vendas_collapse" class="collapse">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						<a href="#vendas_collapse" data-toggle="collapse">Ver mais</a>
-						<img class="img-fluid" src="img/dashboard.png" alt="Dashboard">
-						<a href="#" class="btn btn-green">Inicie gratuitamente</a>
-					</div>
-				</div>
-				<div class="row align-items-center feature">
-					<div class="col col-4 offset-1">
-						<h4>Lorem ipsum dolor sit amet</h4>
-						<p>Lorem ipsum dolor sit amet, <span class="font-weight-bold">consectetur</span> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-					</div>
-					<div class="col col-4 offset-2">
-						<img class="img-fluid" src="img/destaque3.png" alt="Cliente feliz"/>
-					</div>
-				</div>
-				<div class="row align-items-center feature">
-					<div class="col col-4 offset-1">
-						<img class="img-fluid" src="img/mensagem.gif" alt="Mensagem"/>
-					</div>
-					<div class="col col-4 offset-1">
-						<h4>Lorem ipsum dolor sit amet</h4>
-						<p>Lorem ipsum dolor sit amet, <span class="font-weight-bold">consectetur</span> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-					</div>
-				</div>	
 			</div>
-		</div>
 
-			<!--<div class="col-12 col-md-6 col-lg-4 order-md-2 mt-5">
-				<img class="img-fluid" src="img/destaque3.png">
-			</div>
-			<div class="col-12 col-md-6 col-lg-4 offset-lg-2 order-md-1 mt-5">
-
-				<h5 class="mt-5">In-Depth Analytics to <br> make you a winner</h5>
-
-				<p>With <strong>Checkoutify’s</strong> “In-Depth Analytics” <br> you’ll know where you’re doing great and where you suck. Take action based on the data.</p>
-			</div>
-		</div>
-		<div class="row" id="destaque4">
-			<div class="col-12 col-md-6 col-lg-4 order-md-1 mt-5">
-				<img class="img-fluid" src="https://uploads-ssl.webflow.com/5b106b087de2c93418a21ff8/5b159ab64dec1678db53f937_MailboxGIF_noBG-2.gif">
-			</div>
-			<div class="col-12 col-md-6 col-lg-4 offset-lg-2 order-md-2 mt-5">-->
-
-				<h5 class="mt-5">Re-Capture & Convert<br>5X more revenue</h5>
-
-				<p>Once a visitor adds something to their cart,<br> it's more likely they have interest and intention to<br> buy something. With Checkoutify's pre-built<br> automated Abandoned Carts Email reminders<br> you can re-capture those customers and<br> convert to sales.</p>
-			</div>
-		</div>
-		<div class="row" id="destaque4">
-			<div class="col-12 col-md-6 col-lg-4 order-md-2 mt-5">
-				<img class="img-fluid" src="img/5b14633a898d48e187cd7b77_GIF_noBG.gif"
+			<div class="row text-center">
+				<div class="col col-md-8 col-lg-6 mx-auto" id="vendas">
+					<h3>Aumente suas vendas em 3X</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+					<p id="vendas_collapse" class="collapse">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<a data-toggle="collapse" href="#vendas_collapse">Ver mais</a>
+					<img class="img-fluid d-block mx-auto" src="img/dashboard.png" alt="Dashboard">
+					<a href="#" class="btn btn-green">Inicie agora de graça!</a>
 				</div>
 			</div>
-			<div class="col-12 col-md-6 col-lg-4 offset-lg-2 order-md-1 mt-5">
-				<h5 class="mt-5">Recover & Re-engage <br> with Push Notifications</h5>
-				<p>Web push notifications 12X more chance of getting seen and you've 6X more chance to convert than email. That is why Checkoutify doesn't really just rely on email. Start reaching out to your audience without ever building a mobile app.</p>
+
+			<div class="row align-items-center feature">
+				<div class="col col-4 offset-1">
+					<h4>Lorem ipsum dolor sit amet</h4>
+					<p>Lorem ipsum dolor sit amet, <span class="font-weight-bold">consectetur adipisicing</span> elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+				</div>
+				<div class="col col-4 offset-2">
+					<img class="img-fluid" src="img/cliente.png" alt="Cliente feliz" />
+				</div>
+			</div>
+
+			<div class="row align-items-center feature">
+				<div class="col col-4 offset-1">
+					<img class="img-fluid" src="img/mensagem.gif" alt="Imagem de carta" />
+				</div>
+				<div class="col col-4 offset-1">
+					<h4>Lorem ipsum dolor sit amet</h4>
+					<p>Lorem ipsum dolor sit amet, <span class="font-weight-bold">consectetur adipisicing</span> elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+				</div>
+			</div>
+
+			<div class="row align-items-center feature">
+				<div class="col col-4 offset-1">
+					<h4>Lorem ipsum dolor sit amet</h4>
+					<p>Lorem ipsum dolor sit amet, <span class="font-weight-bold">consectetur adipisicing</span> elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+				</div>
+				<div class="col col-3 offset-2">
+					<img class="img-fluid " src="img/celular.gif" alt="Smartphone" />
+				</div>
+			</div>		
+
+			<div class="row align-items-center feature">
+				<div class="col col-4 offset-1">
+					<img class="img-fluid" src="img/formulario.gif" alt="Formulário" />
+				</div>
+				<div class="col col-4 offset-1">
+					<h4>Lorem ipsum dolor sit amet</h4>
+					<p>Lorem ipsum dolor sit amet, <span class="font-weight-bold">consectetur adipisicing</span> elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+				</div>
 			</div>
 		</div>
-		
-		
-		<div class="modal fade" id="cadastro_modal" tabindex="-1" role="dialog"><!--criando modal-->
-		  <div class="modal-dialog" role="document">
-		    <div class="modal-content">
-		      <div class="modal-header">
-		        <h5 class="modal-title">Cadastro</h5>
-		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-		          <span aria-hidden="true">&times;</span>
-		        </button>
-		      </div>
-		      <div class="modal-body"><!--formulario de cadastro-->
-		        <form>
-		        	<div class="form-group">
-    					<label for="input_nome">Name</label>
-					    <input type="text" class="form-control" id="input_nome" placeholder="Escreva seu nome">
- 					 </div>
- 					 <div class="form-group">
-    					<label for="input_email">E-mail</label>
-					    <input type="text" class="form-control" id="input_email" aria-describedby="dicaDoCampoEmail" placeholder="Escreva seu e-mail">
-					    <small id="dicaDoCampoEmail" class="form-text text-muted">Nós não compartilharemos seu e-mail com mais ninguem.</small>
- 					 </div>
- 					 <div class="form-row">
- 					 		<div class="col-form">
- 					 			<div class="form-group">
-		    					<label for="input_nome_usuario">Login</label>
-		    					<div class="input-group">
-		    						<div class="input-group-prepend">
-		    							<div class="input-group-text">@</div>
-		    						</div>
-							    	<input type="text" class="form-control" id="input_senha" placeholder="Escreva sua senha">
-							    </div>
+	</div>
+
+
+
+	<div class="modal fade" id="cadastro_modal" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title">Cadastro</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	      	<form>
+				<div class="form-group">
+					<label for="input_nome">Nome</label>
+					<input type="text" class="form-control" id="input_nome" placeholder="Escreva seu nome">
+				</div>
+				<div class="form-group">
+					<label for="input_email">E-mail</label>
+					<input type="text" class="form-control" id="input_email" aria-describedby="dicaDoCampoEmail" placeholder="Escreva seu e-mail">
+					<small id="dicaDoCampoEmail" class="form-text text-muted">Nós não compartilharemos seu e-mail com mais ninguém.</small>
+				</div>
+				<div class="form-row">
+					<div class="col-form">
+						<div class="form-group">
+							<label for="input_nome_usuario">Login</label>
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<div class="input-group-text">@</div>
+								</div>
+								<input type="text" class="form-control" id="input_nome_usuario" placeholder="Escreva seu login">
 							</div>
- 					 </div>
- 					 <div class="col-form">
- 					 			<div class="form-group">
-		    					<label for="input_senha">Senha</label>
-							    <input type="password" class="form-control" id="input_nome" placeholder="Escreva seu nome de usuário">
-							</div>
+						</div>
 					</div>
-		        </form>
-		      </div>
-		      <div class="modal-footer">
-		        <button type="button" class="btn btn-primary">Salvar</button>
-		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-		      </div>
-		    </div>
-		  </div>
-		</div>
+					<div class="col-form">
+						<div class="form-group">
+							<label for="input_senha">Senha</label>
+							<input type="password" class="form-control" id="input_senha" placeholder="Escreva sua senha">
+						</div>
+					</div>
+				</div>
+	      	</form>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-primary">Salvar</button>
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
 
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="js/bootstrap.js"></script>
-		<script type="text/javascript" src="js/main.js"></script>
-
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
