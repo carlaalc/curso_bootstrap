@@ -15,6 +15,17 @@ h1, h2, h3, h4, h5, h6 {
 	z-index: 100;
 	background: #fff;
 }
+@media (max-width: 576px) {
+/*no caso de dispositivos mobile (576px) 
+a sombra aparecerá fixa e o comando que é 
+usado no maior desaparece com display: none*/
+	#header {
+		box-shadow: 0px 0px 30px rgba(0,0,0,.2);
+	}
+	#header_shadow {
+		display: none;
+	}
+}
 #header_shadow {
 	width: 100%;
 	z-index: 90;
