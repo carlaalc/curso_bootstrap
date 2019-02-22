@@ -20,6 +20,6 @@ $(window).on("scroll", function(){
 	if (distanciaDoTopo > 300) {
 		distanciaDoTopo = 300;
 	} 
-	$("#header_shadow").css("top", (distanciaDoTopo / 15) + "px");
+	$("#header_shadow").css("top", (distanciaDoTopo / 10) + "px");
 	
 })
